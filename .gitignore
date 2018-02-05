@@ -1,0 +1,8 @@
+*~
+*.o
+*.out
+*.d
+app_*
+.project
+.cproject
+.settings
