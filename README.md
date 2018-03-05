@@ -1,24 +1,26 @@
 ## Optimized Delegated Byzantine Fault Tolerance
 
-This is an open-source initiative for providing an efficient fast strategy for guaranteeing NEO blockchain to be fault tolerant.
 
-This project contains optimization strategies for optimizing Neo Consensus.
+This project is in its early stages, it contains basic structures for the design of optimization strategies focused on Neo Consensus.
+First of all, [neo-integration-test](https://github.com/NeoResearch/neo-integration-tests) will be the base project that will allow us to concisely run the proposed experiments.
+In particular, the flexibility of metaheuristics, and mathematical programming models, will be explored.
 
-In particular, the flexibility of metaheuristics will be used in order to achieve robust and efficient consensus.
-
-Due to the complexity and critical need of ensuring trust and efficiency, a multi-objective approach is taken into account.
-Taking hand of this multi-objective optimization, the proposed model tries to find a consensus that balances risk, quality and efficiency.
+Due to the complexity and critical need of ensuring trust and efficiency, a multi-objective approach will, probably, be taken into account.
+Furthermore, taking hand of this multi-objective optimization, the proposed model is going to try to find a consensus that balances risk, quality and high speed communication between different Neo ecosystem interfaces (each pair could be seen as an objective, forming the desired Pareto Front).
 After the optimization step, multi-criteria decision making will be applied in order to assist nodes decision in real-time blockchain operation.
 
+In summary, it has the potential of enhancing consensus capabilities, speed and robustness, taking into account multi-agent systems protocols and using high performance computing techniques.
+
+
 ### Next steps
-* It is not discarded that it may use the power of mathematical programming models. On the other hand, it is expected that the problem described and handled here will fit inside the class of NP-Hard problems. Thus, it may exponentially require costly computational resources when handling real scenarios.
+* It is not discarded that it will involve the resolution of graph mathematical programming models;
+* On the other hand, it is expected that the problem described and handled here will fit inside the class of NP-Hard problems. In this sense, it may exponentially require costly and precious computational resources when handling real-time operation;
+* Possible, this project can be merged with the aforementioned [neo-integration-test](https://github.com/NeoResearch/neo-integration-tests). This would be a reasonable and smart strategy if the proposed real-time self-tunning parameters TestNet also becomes reality.
 
 ## Contributing
 
 * If you have ideas or issues, you can inform directly at github or contact us directly
 * Our team is currently formed by researchers/professors, so our time is very constrained... if you feel you can help us, don't hesitate!
-* We created a wallet specially for project donations. That can help us improve our servers and perhaps hire someone for improving graphical interfaces and developing many more interesting features. NEO wallet:
-__ToBeCreated__
 
 LICENSE MIT
 
